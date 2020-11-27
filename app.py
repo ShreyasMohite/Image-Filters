@@ -15,7 +15,7 @@ from PIL import ImageFilter
 class Img_filter:
     def __init__(self,root):
         self.root=root
-        self.root.title("Ascii To Image")
+        self.root.title("Image filter")
         self.root.geometry("500x400")
         self.root.iconbitmap("logo328.ico")
         self.root.resizable(0,0)
